@@ -1,6 +1,6 @@
 alert("Request You to Open in Desktop mode for best view")
 
-const endDate = "25 May 2023 12:00:00 AM"
+const endDate = "29 April 2023 02:21:00 PM"
 
 document.getElementById("end-date").innerText = endDate;
 
