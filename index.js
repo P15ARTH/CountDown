@@ -1,6 +1,6 @@
 alert("Request You to Open in Desktop mode for best view")
 
-const endDate = "29 April 2023 02:23:00 PM"
+const endDate = "25 May 2023 12:00:00 AM"
 
 document.getElementById("end-date").innerText = endDate;
 
@@ -12,7 +12,7 @@ function clock() {
     const diff = (end - now) / 1000;
 
     if (diff < 0 ) { 
-     document.getElementById("my_audio").play();
+     //document.getElementById("my_audio").play();
      document.getElementById("headline").innerText = "🎁 🎁 🎁 Happy Birthday 🎁 🎁 🎁";
      document.getElementById("show").style.visibility = "hidden";
      document.getElementById("img").style.visibility = "visible";
@@ -42,9 +42,7 @@ setInterval(
     1000
 )
 
-//if (diff < 0 ) {
-  //  alert("Today is Your Birthday");
-//}
+
 
 
 
